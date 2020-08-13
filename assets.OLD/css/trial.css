@@ -1,0 +1,90 @@
+#dialogoverlay{
+	display: none;
+	opacity: .5;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+        background: #999999;
+	width: 100%;
+	z-index: 1000;
+}
+#postdialogoverlay{
+	display: none;
+	opacity: .5;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+        background: #999999;
+	width: 100%;
+	z-index: 1100;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #333333;
+	border-radius:7px; 
+	width:550px;
+	z-index: 1150;
+}
+  #alertdialogbox{
+	display: none;
+	position: fixed;
+	background: #333333;
+	border-radius:7px; 
+	width:550px;
+	z-index: 1150;
+}
+#dialogbox > div{ 
+    background:#3366ff;
+    margin:8px; 
+} 
+#alertdialogbox > div{ 
+    background:#3366ff; margin:8px; 
+}
+#dialogbox > div > #dialogboxhead{ 
+    background-color: #333333;
+    font-size:15px;
+    padding:5px; 
+    color:#FFF; 
+    font-family:Ubuntu-Light; 
+}
+#alertdialogbox > div > #alertdialogboxhead{
+      background-color: #333333;
+    font-size:15px; 
+    text-align: left;
+    padding:5px; 
+    color:#FFF; 
+    font-family:Ubuntu-Light; 
+    font-weight: bold;
+}
+
+#dialogbox > div > #dialogboxbody{ 
+    background: #FFF; 
+    padding:20px; 
+    color:#3366ff; 
+    font-family:Ubuntu-Light;
+   /* font-weight: bold;*/
+    background-image:  url('http://support.symphonykenya.com/assets/images/icons/verify.png'); 
+    background-position: 466px 3px; /*position search icon*/
+    background-repeat: no-repeat; /* do not repeat search icon */ 
+    background-size: 45px;
+}
+
+#alertdialogbox > div > #alertdialogboxbody{ 
+    background: #FFF; 
+    padding:20px; 
+    color:#3366ff; 
+    font-family:Ubuntu-Light;
+   /* font-weight: bold;*/
+   background-image:  url('http://support.symphonykenya.com/assets/images/icons/warning.png'); 
+    background-position: 466px 3px; /*position search icon*/
+    background-repeat: no-repeat; /* do not repeat search icon */ 
+    background-size: 45px;
+}
+#dialogbox > div > #dialogboxfoot{ background-color: white; padding:6px; text-align:right; }
+
+#alertdialogbox > div > #alertdialogboxfoot{ background-color: white; padding:10px; text-align:right; }
+
+ 
+
+        

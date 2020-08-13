@@ -1,0 +1,511 @@
+#managecalls,#claims{
+    display: none;
+    margin-bottom: 10px;
+}
+#newcall{
+    margin-bottom: 10px;
+    height: auto;
+    min-height: 380px;
+    overflow: auto;
+    /*position: relative;*/
+}
+#csrlistdiv{
+   display: none;
+	position: fixed;
+	background: #fff;
+	border-radius:7px; 
+        border: 1px solid #3366ff;
+	width:1220px;
+        height: auto;
+        min-height: 500px;
+	z-index: 1050;
+        box-shadow:   2px 5px 20px #555;
+}
+#csrlistholderdiv{
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    min-height: 500px;
+}
+#printcsrBtn{
+    margin-left: 5px;
+}
+
+.main_container{
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+   position: relative;
+   top: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    min-height: 630px;
+}
+#techavailtable{
+    width: 100%;
+}
+#clientdetails{
+    float: left;
+    width: 350px;
+    height: auto;
+    min-height: 180px;
+ /* background: yellow;*/
+}
+#csrcenterdiv{
+    float: left;
+    width: 350px;
+     height: auto;
+    min-height: 180px;
+   /* background: green;*/
+}
+#csrrightdiv{
+    float:right;
+    width: 330px;
+    height: auto;
+    min-height: 180px;
+   /*background: green;*/
+}
+#csrtotal{
+    background-color: #cccccc;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Ubuntu-Light;
+}
+.okBtn{
+    background-color: green;
+    color: white;
+}
+.okBtn:hover{
+     background-color: white;
+    color: green; 
+    border:1px solid green;
+}
+.noBtn{
+     background-color: red;
+       color: white;
+}
+
+.noBtn:hover{
+     background-color: white;
+    color: red; 
+    border:1px solid red;
+}
+
+#deptnamespan,#deptnamespan1{
+    width: 500px;
+    
+    border: none;
+    margin-left: 100px;
+    color: #3366ff;
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    font-weight: bold;
+}
+.notfounddiv{
+    width: 800px;
+    height: 30px;
+    margin-left: auto;
+    background: grey;
+    color: white;
+    margin-right: auto;
+   
+}
+#deptselector{
+    /*background:yellow;*/
+    width: auto;
+    height: 40px;
+}
+ #salesdept{
+    border: 1px solid #3366ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 1030px;
+    height: auto;
+    overflow: auto;
+    border-radius: 4px;
+}
+  #billingreq,#sla{
+  display: none;   
+}
+.tabcontroller{
+    margin-top: 10px;
+}
+.tabcontainer{
+    width: 1170px;
+    height: auto;
+   
+    margin-top: 2px;
+    border-radius: 4px;
+    border: 1px solid #3366ff;
+    margin-left: 10px;
+    margin-right: auto;
+   margin-bottom: 10px;
+}
+textarea{
+    border: 1px solid #3366ff;
+    border-radius: 4px;
+   
+}
+#fault{
+    margin-bottom: 10px;
+}
+fieldset{
+    border: 1px solid #333333;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+#callsfieldset,#jobdetails{
+    width: 350px;
+    height: auto;
+    margin-right:10px;
+    margin-left: 10px;
+    min-height: 300px;
+    float: left;
+}
+#callnotification{
+    float: left;
+    width: 265px;
+    height: auto;
+    min-height: 300px;
+}
+.checkbox{
+    border: none;
+    border-radius: 2px;
+    color: #3366ff;
+}
+#opencallbtn{
+   
+    margin-left: 220px;
+}
+#techavailability{
+    margin-left: 10px;
+    width: 750px;
+    float: left;
+    display: none;
+}
+#submitfieldset{
+    float:right;
+    border:none;
+}
+#technicianstable{
+    margin-bottom: 2px;
+   /* height: 100px; */
+}
+#techtablediv{
+    width: 340px;
+    height: 100px;
+    min-height: 110px;
+    overflow: hidden;
+    overflow: scroll;
+    margin-top: 80px;
+}
+.controlset{
+    height: auto;
+    border: none;
+}
+.radiobtndiv{
+    
+}
+legend{
+    color: #000;
+    font-family: Raleway-Regular;
+}
+#rightdiv, #guard_right{
+    width: 330px;
+   /* height: 280px;*/
+    height: auto;
+    float: left;
+   /* background: yellow;*/
+}
+#leftdiv, #guard_left{
+    width: 340px;
+    /*height: 280px;*/
+    height: auto;
+    float: left;
+    background: white;
+    /*padding-left: 10px;*/
+}
+#centerdiv,#guard_center {
+    width:350px;
+    /*height: 280px;*/
+     height: auto;
+    float: left;
+    /* padding-left: 10px;*/
+}
+ 
+#csritemsdiv{
+    width: 1000px;
+    height: auto;
+    min-height: 200px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    /*background: yellow;*/
+    float: left;
+   
+}
+#purchaselistfset{
+   border-radius: 4px;
+    border: 1px solid #3366ff;  
+}
+#registerbtn,#updatebtn, #savebtn,#viewcsrlistbtn{
+    width: 80px;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 10px;
+     font-weight: bold;
+}
+#viewcsrlistbtn{
+    background-color: #339900;
+     font-weight: bold;
+}
+#viewcsrlistbtn:hover{
+   background: white;
+   color: #339900;
+    border: 2px solid #339900;  
+}
+#updatebtn{
+    background-color: red; 
+    font-weight: bold;
+}
+#updatebtn:hover{
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+#passportpreviewdiv{
+    width: 150px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 2px;
+    border: 1px solid #3366ff;
+    background-image: url('http://support.symphonykenya.com/assets/images/icons/staff2.png');
+    background-repeat: no-repeat; /* do not repeat search icon */ 
+    background-size: 100%;
+    margin-bottom: 0.1em;
+    padding-top: 0.6em;
+    padding-bottom: .6em;
+}
+input[type="radio"]{
+    margin-top: 10px;
+    color: #3366ff;
+}
+#password,#username{
+    width: 200px;
+}
+.radiotext{
+    color: #000;
+    font-family: Raleway-Regular;
+    font-size: 15px;
+}
+.nottext{
+    margin-top: 20px;
+    color: red;
+    width: auto;
+    font-family: Raleway-Regular;
+    font-size: 14px;
+}
+#studentinfodiv{
+   
+}
+.footerdiv{
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #fff;
+    width: 1100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+     margin-top: 0px;
+}
+
+.searchtext,#csrsearch,#callsearch{
+     width: 300px;
+     height: 25px;
+    background-image: url('http://support.symphonykenya.com/assets/images/icons/searchicon3.jpg'); /*sadd search icon to input  */ 
+    background-position: 280px 3px; /*position search icon*/
+    background-repeat: no-repeat; /* do not repeat search icon */ 
+    background-size: 25px;
+   color: #000;
+   border: 1px solid #3366ff; 
+    border-bottom: none;
+    margin-bottom: 0;
+    border-radius: 4px;
+     box-shadow:   2px 5px 20px #555;
+    }
+    #csrlowerdiv{
+        width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #callslistdiv{
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+    }
+    #callsearch{
+        margin-top: 10px;
+    }
+    #upperdiv{
+        width: 1150px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70px;
+        
+    }
+    #lowerdiv{
+        width: 1150px;
+         margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        
+    }
+    .td-activity{
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    }
+    .td-client,.td-location,.td-reportedby,.ponum{
+      max-width:100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+    }
+    .csrclient{
+      max-width:150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+    }
+    .csrdescrip{
+      max-width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+    }
+    .csrdate,.podate,.ponum,.csrvalue,.soldby,.invoiceno {
+      max-width:100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+    }
+    
+    .notclosed{
+        color: #fb2608;
+        font-weight: bold;
+    }
+    .closed{
+        color: #3dc226;
+    }
+    
+    #serviceentrydiv{
+        display: none;
+        position: fixed;
+        background: white;
+         box-shadow:   2px 5px 20px #555;
+        width: 1200px;
+        height: auto;
+        min-height: 500px;
+        border-radius: 4px;
+        z-index: 1050;
+    }
+    #callsdetails{
+        float: left;
+        width: 350px;
+        height:auto;
+        min-height: 500px;
+        border: 1px solid #3366ff;
+        border-radius: 4px;
+    }
+    #servicedetails{
+        float: left;
+        width: 690px;
+        margin-left: 2px;
+        height:auto;
+        min-height: 500px; 
+        border: 1px solid #3366ff;
+        border-radius: 4px;
+    }
+    #serviceentryfieldset{
+        width: 1100px;
+        margin: 10px auto 10px auto;
+        border: 1px solid #3366ff;
+        border-radius: 4px; 
+    }
+    .readonly{
+        background: #cccccc;
+    }
+    
+    #serviceexitBtn{
+        margin-top: 30px;
+       float: right;
+    }
+    #serviceexitBtn:hover{
+        background: red;
+        color: white;
+        border: 2px solid gray;
+    }
+    #callfrom, #callto{
+        width: 120px; 
+    }
+    #service_rightdiv,#service_leftdiv{
+        float: left;
+        width: 340px;
+       /* border: 1px solid gainsboro;*/
+        }
+   
+   #servicedate,#jobcardserial{
+            width: 120px;
+        }
+ #actiontakendiv,#findingsdiv,#recommendationsdiv{
+     float: left;
+   width: 680px;   
+  /* border: 1px solid gainsboro;*/
+        }
+textarea{
+            margin-bottom: 5px;
+            margin-left: 10px;
+           /* resize: none;*/
+        }
+    #callstatusdiv{
+        float: left;
+        width: 680px;
+       /* border: 1px solid gainsboro;*/
+        }
+  #servicesubmitBtn{
+        float: right;
+        }
+ 
+        #servicesubmitBtn:hover{
+            background: #3dc226;
+            color:white;
+            border:2px solid gray;
+        }
+        #callassignedtotable{
+            height: auto;
+            max-height: 100px;
+            overflow: hidden;
+            overflow: scroll;
+            margin-bottom: 10px;
+        }
+  .td-calldate{
+      max-width:90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }  
+  .td-techname{
+     max-width:80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
